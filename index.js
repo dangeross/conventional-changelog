@@ -38,7 +38,8 @@ function generate(options, done) {
   options = extend({
     file: 'CHANGELOG.md',
     log: console.log.bind(console),
-    warn: console.warn.bind(console)
+    warn: console.warn.bind(console),
+    types: ['fix', 'feat', 'breaks']
   }, options || {});
 
   getChangelogCommits();

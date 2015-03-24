@@ -75,6 +75,8 @@ By default, calls the callback with a string containing a changelog from the pre
 
 * `warn` `{function()}` - What warn function to use. For example, `{warn: grunt.log.writeln}`. By default, uses `console.warn`.
 
+* `types` `{array}` - Which convention types to include in changelog. For example `['fix', 'feat', 'refactor', 'breaks']`. By default, uses `['fix', 'feat', 'breaks']`.
+
 ## License
 
 BSD
